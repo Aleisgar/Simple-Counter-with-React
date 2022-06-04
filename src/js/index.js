@@ -21,10 +21,6 @@ const SecondCounter = (props) => {
 	);
 };
 
-// const Seconds = () => {
-//
-//return counter;
-// };
 let counter = 0;
 let counter2 = 0;
 let counter3 = 0;
@@ -50,7 +46,6 @@ setInterval(function () {
 		}
 	}
 
-	//console.log(counter);
 	ReactDOM.render(
 		<SecondCounter
 			segundos={counter}
